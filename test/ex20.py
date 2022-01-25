@@ -16,3 +16,9 @@ for i in range(2,10) :          # 외부  8번
 # ....
 # 9,1~9
 # 그러므로 전체 print문이 실행되는 횟수 72번 실행됨
+
+
+for a in range(2,10) :
+    print("---{}단".format(a))
+    for b in range(1,10) :
+        print("%d * %d = %d"%(a, b, a*b))

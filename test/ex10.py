@@ -21,3 +21,8 @@ print("이름 : %s, 나이 : %d, 아이큐 : %3.2f" % (lst))
 print("16진수로 출력 : ", format(157, "5x"))
 # s(string) : 문자열을 표시
 print("면적 : ",a)
+
+
+H = int(input("높이 : "))
+L = float(input("길이 : "))
+A = print("A = ", H*L)

@@ -1,0 +1,16 @@
+# 튜플의 함수 (type, len) 또는 메소드(.으로 시작하는 언어 : count, index등)
+tp1 = (80, 90, 80, 85, 75, 70, 85)
+print("tp1의 형태 : ", type(tp1))
+
+list1 = list(tp1)
+print("lst1의 형태 : ", type(list1))
+print("lst1의 값 : ", list1)
+list1.remove(90)
+print("list1의 요소 제거후 : ", list1)
+
+tp1 = tuple(list1)
+print("tp1의 형태 : ", type(tp1))
+print("tp1의 값", tp1)
+print("tp1의 요소값이 85인 개수 : ", tp1.count(85))
+print("tp1의 요소의 값이 75인 요소의 인덱스 : ", tp1.index(75))
+print(len(tp1))

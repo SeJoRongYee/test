@@ -1,5 +1,5 @@
 # 표준연산자
-va1 = 100
+var1 = 100
 var2 = "박상용"
 print(var2, "의 점수는 ", var1, "점 입니다.")       # 표준출력 print
 p1 = int(input("국어 점수 입력 : "))               # 표준입력 input
